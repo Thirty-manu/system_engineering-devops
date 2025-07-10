@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 17920d1cd56d0a38a73540abe16621a501c23230
 #!/usr/bin/env bash
 # This script displays "Best School" 10 times using an until loop
 
