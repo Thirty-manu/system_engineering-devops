@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 # Script that displays "To infinity and beyond" indefinitely with sleep 2
 # When it receives SIGTERM, it displays "I am invincible!!!" and continues
