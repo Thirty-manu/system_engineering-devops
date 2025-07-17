@@ -2,11 +2,6 @@
 # Script that kills the 7-highlander process using SIGKILL signal
 
 # Find the PID of the 7-highlander process
-PID=$(pgrep -f "7-highlander")
-
-if [ -n "$PID" ]; then
-    # Send SIGKILL signal (signal 9) to the process
-    kill -9 "$PID"
-else
-    echo "7-highlander process not found"
-fi
+pgrep -f "7-highlander" | while read -r pid; do
+    kill -9 "$pid"
+done
